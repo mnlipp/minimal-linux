@@ -34,7 +34,7 @@ bios() {
       -no-emul-boot \
       -boot-load-size 4 \
       -boot-info-table \
-    -o $SRC_DIR/minimal_linux_live.iso \
+    -o $SRC_DIR/minimal_linux_sh_only.iso \
     $ISOIMAGE
 }
 
